@@ -5,7 +5,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 const NavBar = ()=>{
   return (
     <>
-    <nav className="bg-zinc-900 p-4 dark:bg-gray-900 border-b-2 border-zinc-700">
+    <nav className="bg-zinc-900 p-4   border-b-2 border-zinc-700">
   <div className="flex items-center justify-between">
     <div>
       <div className=" "></div>
