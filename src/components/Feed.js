@@ -4,18 +4,15 @@ const Feed = () => {
       <div className="flex text-zinc-100 justify-between p-5 text-lg font-bold">
         <div className="text-white">Feed</div>
         <div className="flex text-zinc-200 text-sm  gap-x-5">
-        <div className="hover:cursor-pointer  flex flex-col items-center ">
-        <div>Latest</div>
-        <div className="-mt-5 text-3xl">.</div>
-          
-        </div>
-         <div className="text-zinc-400 hover:cursor-pointer">
-          Popular
-        </div>
+          <div className="hover:cursor-pointer  flex flex-col items-center ">
+            <div>Latest</div>
+            <div className="-mt-5 text-3xl">.</div>
           </div>
+          <div className="text-zinc-400 hover:cursor-pointer">Popular</div>
+        </div>
       </div>
       <div className="flex   flex-wrap justify-around px-2">
-        <div class="bg-black-100 p-4 w-[330px] ">
+        <div class="bg-black-100 md:p-4 p-6 w-full  md:w-[330px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-lg overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img
@@ -59,7 +56,7 @@ const Feed = () => {
             </div>
           </div>
         </div>{" "}
-        <div class="bg-black-100 p-4 w-[330px] ">
+        <div class="bg-black-100 md:p-4 p-6 w-full md:w-[330px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-lg overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img
@@ -104,7 +101,7 @@ const Feed = () => {
             </div>
           </div>
         </div>{" "}
-        <div class="bg-black-100 p-4 w-[330px] ">
+        <div class="bg-black-100 md:p-4 p-6 w-full md:w-[330px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-lg overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img
@@ -146,7 +143,7 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 p-4 w-[330px] ">
+        <div class="bg-black-100 md:p-4 p-6 w-full md:w-[330px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-lg overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img
@@ -190,7 +187,7 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 p-4 w-[330px] ">
+        <div class="bg-black-100 md:p-4 p-6 w-full md:w-[330px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-lg overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img
@@ -237,7 +234,7 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 p-4 w-[330px] ">
+        <div class="bg-black-100 md:p-4 p-6 w-full md:w-[330px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-lg overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img
