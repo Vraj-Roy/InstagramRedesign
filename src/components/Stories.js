@@ -82,7 +82,7 @@ const Stories = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <span className="mt-1 text-white text-xs">Parker Weiss</span>
+          <span className="mt-1 text-white text-xs">Claudia</span>
         </div>
 
         {/* More story items... */}
@@ -104,7 +104,7 @@ const Stories = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <span className="mt-1 text-white text-xs">Tommy Hunter</span>
+          <span className="mt-1 text-white text-xs">Emily Smith</span>
         </div>
 
         {/* More story items... */}
@@ -148,7 +148,7 @@ const Stories = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <span className="mt-1 text-white text-xs">ajay kumar</span>
+          <span className="mt-1 text-white text-xs">Sana</span>
         </div>
 
         {/* More story items... */}
