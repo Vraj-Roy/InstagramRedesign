@@ -22,7 +22,7 @@ const Bottom = () => {
           <Link to="/">
             {location.pathname === "/" ? (
               <div className=" font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
-                <div className="scale-150">
+                <div className="scale-125">
                   <HomeIcon />
                 </div>{" "}
               </div>
@@ -37,13 +37,13 @@ const Bottom = () => {
           <Link to="/explore">
             {location.pathname === "/explore" ? (
               <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
-                <div className="scale-150">
+                <div className="scale-125">
                   <ExploreIcon />
                 </div>{" "}
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                 <div className="scale-150">
+                 <div className="scale-125">
                   <ExploreOutlinedIcon />
                 </div>{" "}
               </div>
@@ -53,13 +53,13 @@ const Bottom = () => {
           <Link to="/reels">
             {location.pathname === "/reels" ? (
               <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
-                <div className="scale-150">
+                <div className="scale-125">
                   <InstallMobileIcon />
                 </div>{" "}
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                 <div className="scale-150">
+                 <div className="scale-125">
                   <InstallMobileOutlinedIcon />
                 </div>{" "}
               </div>
@@ -68,13 +68,13 @@ const Bottom = () => {
           <Link to="/saved">
             {location.pathname === "/saved" ? (
               <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
-                <div className="scale-150">
+                <div className="scale-125">
                   <BookmarkOutlinedIcon />
                 </div>{" "}
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                 <div className="scale-150">
+                 <div className="scale-125">
                   <BookmarkBorderOutlinedIcon />
                 </div>{" "}
               </div>
@@ -83,13 +83,13 @@ const Bottom = () => {
           <Link to="/settings">
             {location.pathname === "/settings" ? (
               <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
-                <div className="scale-150">
+                <div className="scale-125">
                   <SettingsIcon />
                 </div>{" "}
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                <div className="scale-150">
+                <div className="scale-125">
                   <SettingsOutlinedIcon />
                 </div>{" "}
               </div>
