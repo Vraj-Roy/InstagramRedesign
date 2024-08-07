@@ -22,7 +22,7 @@ const Saved = () => {
         </div>
 
         <div>
-          <div className="flex flex-wrap justify-center  gap-5 p-4 md:p-0">
+          <div className="flex flex-wrap justify-center  gap-5 p-6 md:p-3">
             <div className="md:w-[280px] rounded-3xl overflow-hidden ">
               {" "}
               <img src="/feed2" alt="" />{" "}

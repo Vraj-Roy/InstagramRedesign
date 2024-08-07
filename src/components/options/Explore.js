@@ -16,7 +16,7 @@ const Explore = () => {
           </div>
         </div>
 
-        <div className="flex m-auto w-full md:w-fit">
+        <div className="flex p-2 m-auto w-full md:w-fit">
           <div className="flex flex-col">
             <div className="rounded-3xl overflow-hidden  md:w-[400px] m-4">
               {" "}
