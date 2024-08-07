@@ -43,7 +43,7 @@ const Bottom = () => {
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                 <div className="scale-125">
+                 <div className="scale-150">
                   <ExploreOutlinedIcon />
                 </div>{" "}
               </div>
@@ -59,7 +59,7 @@ const Bottom = () => {
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                 <div className="scale-125">
+                 <div className="scale-150">
                   <InstallMobileOutlinedIcon />
                 </div>{" "}
               </div>
@@ -74,7 +74,7 @@ const Bottom = () => {
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                 <div className="scale-125">
+                 <div className="scale-150">
                   <BookmarkBorderOutlinedIcon />
                 </div>{" "}
               </div>
@@ -89,7 +89,7 @@ const Bottom = () => {
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                <div className="scale-125">
+                <div className="scale-150">
                   <SettingsOutlinedIcon />
                 </div>{" "}
               </div>
