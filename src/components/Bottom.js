@@ -14,7 +14,6 @@ import BookmarkOutlinedIcon from "@mui/icons-material/BookmarkOutlined";
 import InstallMobileOutlinedIcon from "@mui/icons-material/InstallMobileOutlined";
 const Bottom = () => {
   const location = useLocation();
-  console.log(location.pathname);
   return (
     <>
       <div className="fixed md:hidden ">
@@ -43,7 +42,7 @@ const Bottom = () => {
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                 <div className="scale-125">
+                <div className="scale-125">
                   <ExploreOutlinedIcon />
                 </div>{" "}
               </div>
@@ -59,7 +58,7 @@ const Bottom = () => {
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                 <div className="scale-125">
+                <div className="scale-125">
                   <InstallMobileOutlinedIcon />
                 </div>{" "}
               </div>
@@ -74,7 +73,7 @@ const Bottom = () => {
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                 <div className="scale-125">
+                <div className="scale-125">
                   <BookmarkBorderOutlinedIcon />
                 </div>{" "}
               </div>
