@@ -17,13 +17,13 @@ const Bottom = () => {
       <div className="  h-14 fixed bg-black w-full rounded-lg bottom-0 flex justify-around items-center">
             <Link to="/">
               {location.pathname === "/" ? (
-                <div className=" font-semibold flex gap-x-4 items-center  text-3xl">
+                <div className=" font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
                   <div>
                     <HomeIcon />
                   </div>{" "} 
                 </div>
               ) : (
-                <div className="  font-semibold   text-zinc-200 flex gap-x-4 items-center  text-lg">
+                <div className="  font-semibold   text-zinc-400 flex gap-x-4 items-center  text-lg">
                   <div>
                     <HomeIcon />
                   </div>{" "} 
@@ -32,13 +32,13 @@ const Bottom = () => {
             </Link>
             <Link to="/explore">
               {location.pathname === "/explore" ? (
-                <div className="  font-semibold flex gap-x-4 items-center  text-lg">
+                <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
                   <div>
                     <ExploreOutlinedIcon />
                   </div>{" "} 
                 </div>
               ) : (
-                <div className="  font-semibold   text-zinc-200 flex gap-x-4 items-center  text-lg">
+                <div className="  font-semibold   text-zinc-400 flex gap-x-4 items-center  text-lg">
                   <div>
                     <ExploreOutlinedIcon />
                   </div>{" "} 
@@ -49,13 +49,13 @@ const Bottom = () => {
             
             <Link to="/reels">
               {location.pathname === "/reels" ? (
-                <div className="  font-semibold flex gap-x-4 items-center  text-lg">
+                <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
                   <div>
                     <InstallMobileIcon />
                   </div>{" "} 
                 </div>
               ) : (
-                <div className="  font-semibold   text-zinc-200 flex gap-x-4 items-center  text-lg">
+                <div className="  font-semibold   text-zinc-400 flex gap-x-4 items-center  text-lg">
                   <div>
                     <InstallMobileIcon />
                   </div>{" "} 
@@ -64,13 +64,13 @@ const Bottom = () => {
             </Link>
             <Link to="/saved">
               {location.pathname === "/saved" ? (
-                <div className="  font-semibold flex gap-x-4 items-center  text-lg">
+                <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
                   <div>
                     <BookmarkBorderOutlinedIcon />
                   </div>{" "} 
                 </div>
               ) : (
-                <div className="  font-semibold   text-zinc-200 flex gap-x-4 items-center  text-lg">
+                <div className="  font-semibold   text-zinc-400 flex gap-x-4 items-center  text-lg">
                   <div>
                     <BookmarkBorderOutlinedIcon />
                   </div>{" "} 
@@ -79,13 +79,13 @@ const Bottom = () => {
             </Link>
             <Link to="/settings">
               {location.pathname === "/settings" ? (
-                <div className="  font-semibold flex gap-x-4 items-center  text-lg">
+                <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
                   <div>
                     <SettingsOutlinedIcon />
                   </div>{" "} 
                 </div>
               ) : (
-                <div className="  font-semibold   text-zinc-200 flex gap-x-4 items-center  text-lg">
+                <div className="  font-semibold   text-zinc-400 flex gap-x-4 items-center  text-lg">
                   <div>
                     <SettingsOutlinedIcon />
                   </div>{" "} 
