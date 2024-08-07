@@ -28,7 +28,7 @@ const Bottom = () => {
               </div>
             ) : (
               <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
-                <div>
+                <div className="scale-125">
                   <HomeOutlinedIcon />
                 </div>{" "}
               </div>
