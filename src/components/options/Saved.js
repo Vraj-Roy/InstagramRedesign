@@ -1,6 +1,8 @@
 import NavBar from "../NavBar";
 import PlayLessonIcon from "@mui/icons-material/PlayLesson";
 import GridOnIcon from "@mui/icons-material/GridOn";
+import FilterNoneIcon from "@mui/icons-material/FilterNone";
+import AutoAwesomeMotionIcon from "@mui/icons-material/AutoAwesomeMotion";
 const Saved = () => {
   return (
     <>
@@ -23,51 +25,75 @@ const Saved = () => {
 
         <div>
           <div className="flex flex-wrap justify-center  gap-5 p-6 md:p-3">
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
+              {" "}
+              <img src="/feed2" alt="" />{" "}
+              <div className="absolute right-3 top-3 text-zinc-200">
+                <AutoAwesomeMotionIcon />
+              </div>
+            </div>
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
+              {" "}
+              <img src="/feed2" alt="" />{" "}
+              <div className="absolute right-3 top-3 text-zinc-200">
+                <AutoAwesomeMotionIcon />{" "}
+              </div>
+            </div>
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
+              {" "}
+              <img src="/feed2" alt="" />{" "}
+              <div className="absolute right-3 top-3 text-zinc-200">
+                <AutoAwesomeMotionIcon />{" "}
+              </div>
+            </div>
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
+              {" "}
+              <img src="/feed2" alt="" />{" "}
+              <div className="absolute right-3 top-3 text-zinc-200">
+                <AutoAwesomeMotionIcon />{" "}
+              </div>
+            </div>
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
+              {" "}
+              <img src="/feed2" alt="" />{" "}
+              <div className="absolute right-3 top-3 text-zinc-200">
+                <AutoAwesomeMotionIcon />{" "}
+              </div>
+            </div>
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
               <img src="/feed2" alt="" />{" "}
             </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
+              {" "}
+              <img src="/feed2" alt="" />{" "}
+              <div className="absolute right-3 top-3 text-zinc-200">
+                <AutoAwesomeMotionIcon />{" "}
+              </div>
+            </div>
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
               <img src="/feed2" alt="" />{" "}
             </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
+              {" "}
+              <img src="/feed2" alt="" />{" "}
+              <div className="absolute right-3 top-3 text-zinc-200">
+                <AutoAwesomeMotionIcon />{" "}
+              </div>
+            </div>
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
               <img src="/feed2" alt="" />{" "}
             </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
               <img src="/feed2" alt="" />{" "}
+              <div className="absolute right-3 top-3 text-zinc-200">
+                <AutoAwesomeMotionIcon />{" "}
+              </div>
             </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
-              {" "}
-              <img src="/feed2" alt="" />{" "}
-            </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
-              {" "}
-              <img src="/feed2" alt="" />{" "}
-            </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
-              {" "}
-              <img src="/feed2" alt="" />{" "}
-            </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
-              {" "}
-              <img src="/feed2" alt="" />{" "}
-            </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
-              {" "}
-              <img src="/feed2" alt="" />{" "}
-            </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
-              {" "}
-              <img src="/feed2" alt="" />{" "}
-            </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
-              {" "}
-              <img src="/feed2" alt="" />{" "}
-            </div>
-            <div className="md:w-[280px] rounded-3xl overflow-hidden ">
+            <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
               <img src="/feed2" alt="" />{" "}
             </div>

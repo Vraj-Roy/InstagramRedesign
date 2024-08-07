@@ -3,6 +3,7 @@ import Middle from "./Middle";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Explore from "./options/Explore";
 import Saved from "./options/Saved";
+import Bottom from "./Bottom";
 
 const Main = () => {
   return (
@@ -19,6 +20,7 @@ const Main = () => {
             <Route path="/saved" element={<Saved />}></Route>
             <Route path="/settings" element={<Middle />}></Route>
           </Routes>
+          <Bottom />
         </BrowserRouter>
       </div>
     </>
