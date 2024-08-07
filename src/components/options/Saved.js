@@ -7,7 +7,7 @@ const Saved = () => {
       <div className="w-full md:w-[80%] bg-black">
         <NavBar />
         <div className="flex w-full md:w-[79vw] bg-black text-zinc-100 justify-between p-5 text-lg font-bold">
-          <div className="text-white">Saved</div>
+          <div className="text-white text-2xl md:text-xl">Saved</div>
           <div className="flex text-zinc-200 text-sm  gap-x-5">
             <div className="hover:cursor-pointer  flex flex-col items-center ">
               <div>
