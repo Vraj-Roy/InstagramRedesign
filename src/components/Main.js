@@ -4,6 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Explore from "./options/Explore";
 import Saved from "./options/Saved";
 import Bottom from "./Bottom";
+import Reels from "./options/Reels";
+import Activity from "./options/Activity";
+import  Settings  from "./options/Settings";
 
 const Main = () => {
   return (
@@ -15,10 +18,10 @@ const Main = () => {
           <Routes>
             <Route path="/" element={<Middle />}></Route>
             <Route path="/explore" element={<Explore />}></Route>
-            <Route path="/activity" element={<Middle />}></Route>
-            <Route path="/reels" element={<Middle />}></Route>
+            <Route path="/activity" element={<Activity />}></Route>
+            <Route path="/reels" element={<Reels />}></Route>
             <Route path="/saved" element={<Saved />}></Route>
-            <Route path="/settings" element={<Middle />}></Route>
+            <Route path="/settings" element={<Settings />}></Route>
           </Routes>
           <Bottom />
         </BrowserRouter>

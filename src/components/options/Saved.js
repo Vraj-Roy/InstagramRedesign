@@ -5,7 +5,7 @@ import FilterNoneIcon from "@mui/icons-material/FilterNone";
 import AutoAwesomeMotionIcon from "@mui/icons-material/AutoAwesomeMotion";
 const Saved = () => {
   return (
-    <>
+    <> 
       <div className="w-full md:w-[80%] bg-black">
         <NavBar />
         <div className="flex w-full md:w-[79vw] bg-black text-zinc-100 justify-between p-5 text-lg font-bold">

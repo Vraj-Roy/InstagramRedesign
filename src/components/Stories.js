@@ -3,15 +3,15 @@ import PlayCircleFilledWhiteOutlinedIcon from "@mui/icons-material/PlayCircleFil
 const Stories = () => {
   return (
     <>
-      <div className="flex text-zinc-100 justify-between p-5 text-lg font-bold">
-        <div className="text-white ">Stories</div>
+      <div className="flex text-zinc-100 justify-between py-3  px-5 text-lg font-bold">
+        <div className="text-white text-xl ">Stories</div>
         <div className="text-white text-sm ">
           {" "}
           <PlayCircleFilledWhiteOutlinedIcon className="mb-1 w-5 h-5 " /> Watch
           all
         </div>
       </div>
-      <div className="flex space-x-3 overflow-x-auto p-3 bg-black">
+      <div className="flex space-x-3 overflow-x-auto px-3 bg-black">
         {/* Story Item */}
         <div className="flex flex-col items-center">
           <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">

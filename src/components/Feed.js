@@ -1,7 +1,7 @@
 const Feed = () => {
   return (
     <>
-      <div className="flex text-zinc-100 justify-between p-5 text-lg font-bold">
+      <div className="flex text-zinc-100 justify-between  pt-4 pb-3 px-5 text-xl font-bold">
         <div className="text-white">Feed</div>
         <div className="flex text-zinc-200 text-sm  gap-x-5">
           <div className="hover:cursor-pointer  flex flex-col items-center ">
@@ -12,7 +12,7 @@ const Feed = () => {
         </div>
       </div>
       <div className="flex justify-between flex-wrap px-2 w-fit md:gap-2 m-auto">
-        <div class="bg-black-100 p-4  w-full  md:w-[380px] ">
+        <div class="bg-black-100 px-4  w-full  md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed2" />
@@ -53,7 +53,7 @@ const Feed = () => {
             </div>
           </div>
         </div>{" "}
-        <div class="bg-black-100 p-4 p-6 w-full md:w-[380px] ">
+        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed1" />
@@ -92,7 +92,7 @@ const Feed = () => {
             </div>
           </div>
         </div>{" "}
-        <div class="bg-black-100 p-4 p-6 w-full md:w-[380px] ">
+        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed2" />
@@ -131,7 +131,7 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 p-4 p-6 w-full md:w-[380px] ">
+        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed2" />
@@ -172,7 +172,7 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 p-4 p-6 w-full md:w-[380px] ">
+        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed2" />
@@ -213,7 +213,7 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 p-4 p-6 w-full md:w-[380px] ">
+        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed2" />
