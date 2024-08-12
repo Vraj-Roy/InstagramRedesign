@@ -27,75 +27,75 @@ const Saved = () => {
           <div className="flex flex-wrap justify-center  gap-5 p-6 md:p-3">
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa1.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />
               </div>
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa3.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa4.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa5.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa7.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa2.png" alt="" />{" "}
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa9.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa6.png" alt="" />{" "}
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa8.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa10.png" alt="" />{" "}
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa11.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/feed2" alt="" />{" "}
+              <img src="/sa12.png" alt="" />{" "}
             </div>
           </div>
           <div className="p-4 "></div>

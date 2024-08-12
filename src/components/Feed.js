@@ -25,7 +25,7 @@ const Feed = () => {
                 </span>
               </div>
             </div>
-            <img className="rounded-2xl" src="/feed1" />
+            <img className="rounded-2xl" src="/sa12.png" />
             <div class="flex items-center justify-between mx-4 mt-3 mb-2">
               <div class="flex gap-5 ">
                 <svg fill="red" height="24" viewBox="0 0 48 48" width="18">
@@ -64,7 +64,7 @@ const Feed = () => {
                 <span class="text-gray-200 text-xs block">New York, UK</span>
               </div>
             </div>
-            <img className="rounded-2xl" src="/feed1" />
+            <img className="rounded-2xl" src="/sa9.png" />
             <div class="flex items-center justify-between mx-4 mt-3 mb-2">
               <div class="flex gap-5 ">
                 <svg fill="red" height="24" viewBox="0 0 48 48" width="18">
@@ -103,7 +103,7 @@ const Feed = () => {
                 <span class="text-gray-200 text-xs block">Toranto, Canada</span>
               </div>
             </div>
-            <img className="rounded-2xl" src="/feed2" />
+            <img className="rounded-2xl" src="/sa10.png" />
             <div class="flex items-center justify-between mx-4 mt-3 mb-2">
               <div class="flex gap-5 ">
                 <svg fill="red" height="24" viewBox="0 0 48 48" width="18">
@@ -144,7 +144,7 @@ const Feed = () => {
                 </span>
               </div>
             </div>
-            <img className="rounded-2xl" src="/feed4" />
+            <img className="rounded-2xl" src="/sa1.png" />
             <div class="flex items-center justify-between mx-4 mt-3 mb-2">
               <div class="flex gap-5 ">
                 <svg fill="red" height="24" viewBox="0 0 48 48" width="18">
@@ -185,7 +185,7 @@ const Feed = () => {
                 </span>
               </div>
             </div>
-            <img className="rounded-2xl" src="feed4" />
+            <img className="rounded-2xl" src="/sa7.png" />
             <div class="flex items-center justify-between mx-4 mt-3 mb-2">
               <div class="flex gap-5 ">
                 <svg fill="red" height="24" viewBox="0 0 48 48" width="18">
@@ -226,7 +226,7 @@ const Feed = () => {
                 </span>
               </div>
             </div>
-            <img className="rounded-2xl" src="/feed3" />
+            <img className="rounded-2xl" src="/sa4.png" />
             <div class="flex items-center justify-between mx-4 mt-3 mb-2">
               <div class="flex gap-5 ">
                 <svg fill="red" height="24" viewBox="0 0 48 48" width="18">
