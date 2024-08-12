@@ -23,14 +23,14 @@ const Explore = () => {
               <img className="w-full h-full" src="/selfie.jpg" alt="" />{" "}
             </div>
             <div className="rounded-3xl overflow-hidden  md:w-[400px] m-4 ">
-              <img className="w-full h-full" src="/feed2" alt="" />{" "}
+              <img className="w-full h-full" src="/ex1.png" alt="" />{" "}
             </div>
             <div className="md:hidden rounded-3xl overflow-hidden  m-4 ">
               <img className="w-full h-auto" src="/billy.jpg" alt="" />{" "}
             </div>
           </div>
           <div className="rounded-3xl hidden md:block overflow-hidden w-[700px] fill h-[560px] m-4 ">
-            <img className="w-full h-auto" src="/billy.jpg" alt="" />{" "}
+            <img className="w-full h-auto" src="/ex3.png" alt="" />{" "}
           </div>
         </div>
       </div>

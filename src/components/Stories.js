@@ -33,6 +33,7 @@ const Stories = () => {
         <div className="flex flex-col items-center">
           <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
             <img
+          
               src="/stp1"
               alt="User story"
               className="w-full h-full object-cover"

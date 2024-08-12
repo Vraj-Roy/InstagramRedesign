@@ -18,22 +18,22 @@ const Settings = () => {
 
         <div className="flex md:flex-row flex-col">
           <div className="flex md:flex-col h-[5%] md:h-full md:w-[5%] md:justify-center md:items-center bg-black gap-3 m-5">
-            <div className="p-5 bg-zinc-900 rounded-2xl text-white ">
+            <div className="p-5 bg-zinc-900 rounded-2xl text-white cursor-pointer ">
               <Person2Icon style={{ scale: "1.5" }} />
             </div>
-            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 ">
+            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 cursor-pointer ">
               <CircleNotificationsOutlinedIcon style={{ scale: "1.5" }} />
             </div>
-            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 ">
+            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 cursor-pointer ">
               <InfoOutlinedIcon style={{ scale: "1.5" }} />
             </div>
-            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 ">
+            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 cursor-pointer ">
               <LockOutlinedIcon style={{ scale: "1.5" }} />
             </div>
             <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 hidden md:block">
               <CampaignOutlinedIcon style={{ scale: "1.5" }} />
             </div>
-            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 ">
+            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 cursor-pointer ">
               <PrivacyTipOutlinedIcon style={{ scale: "1.5" }} />
             </div>
           </div>
