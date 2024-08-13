@@ -18,11 +18,11 @@ const Left = () => {
           <div>
             <img src="instagram-text.png" alt=";;" />
           </div>
-          <div className="w-28 h-28  rounded-full border-2 border-white mb-5 m-auto">
+          <div style={{'padding':'3px'}} className=" w-28 h-28 mb-5 m-auto rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
-              className="overflow-hidden rounded-full"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpfz4nzlwpSkut_9By_fl-SskFrZyfhDZIRA&s"
-              alt="pfp pic"
+              src="/p1.png"
+              alt="User story"
+              className="w-full h-full object-cover rounded-full "
             />
           </div>
           <div className="text-center">Alex</div>

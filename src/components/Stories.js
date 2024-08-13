@@ -17,7 +17,7 @@ const Stories = () => {
           <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             {/* Story Image or Icon */}
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpfz4nzlwpSkut_9By_fl-SskFrZyfhDZIRA&s"
+              src="/p1.png"
               alt="Your story"
               className="w-full h-full object-cover rounded-full"
             />
