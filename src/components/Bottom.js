@@ -15,82 +15,111 @@ import InstallMobileOutlinedIcon from "@mui/icons-material/InstallMobileOutlined
 const Bottom = () => {
   const location = useLocation();
   return (
-    <>
+    <> 
       <div className="fixed md:hidden ">
-        <div className="  h-14 fixed bg-black w-full    bottom-0 flex justify-around items-center border-t-2 border-zinc-400">
+        <div style={{"border-top":"1px solid #696969"}} className="  h-16  fixed bg-black w-full    bottom-0 flex justify-around items-center  border-black">
           <Link to="/">
             {location.pathname === "/" ? (
-              <div className=" font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className=" font-semibold flex-col gap-y-1 text-zinc-100 flex gap-x-4 items-center  md:md:text-lg">
                 <div className="scale-125">
-                  <HomeIcon />
-                </div>{" "}
+                  <HomeIcon /> 
+                </div>
+                <div>
+                  Home
+                </div>
               </div>
             ) : (
-              <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className="  font-semibold flex-col gap-y-1   text-zinc-500 flex gap-x-4 items-center  md:md:text-lg">
                 <div className="scale-125">
                   <HomeOutlinedIcon />
-                </div>{" "}
+                </div>
+                <div>
+                  Home
+                </div>  
               </div>
             )}
           </Link>
           <Link to="/explore">
             {location.pathname === "/explore" ? (
-              <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className="  font-semibold flex-col gap-y-1   text-zinc-100 flex gap-x-4 items-center  md:text-lg">
                 <div className="scale-125">
                   <ExploreIcon />
-                </div>{" "}
+                </div>    
+                <div>
+                  Explore
+                </div>  
               </div>
             ) : (
-              <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className="  font-semibold flex-col gap-y-1    text-zinc-500 flex gap-x-4 items-center  md:text-lg">
                 <div className="scale-125">
                   <ExploreOutlinedIcon />
-                </div>{" "}
+                </div> 
+                   <div>
+                  Explore
+                </div>  
               </div>
             )}
           </Link>
 
           <Link to="/reels">
             {location.pathname === "/reels" ? (
-              <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className="  font-semibold flex-col gap-y-1   text-zinc-100 flex gap-x-4 items-center  md:text-lg">
                 <div className="scale-125">
                   <InstallMobileIcon />
-                </div>{" "}
+                </div>  
+                  <div>
+                  Reels
+                </div>  
               </div>
             ) : (
-              <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className="  font-semibold  flex-col gap-y-1   text-zinc-500 flex gap-x-4 items-center  md:text-lg">
                 <div className="scale-125">
                   <InstallMobileOutlinedIcon />
-                </div>{" "}
+                </div> 
+                   <div>
+                Reels
+                </div>  
               </div>
             )}
           </Link>
           <Link to="/saved">
             {location.pathname === "/saved" ? (
-              <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className="  font-semibold flex-col gap-y-1   text-zinc-100 flex gap-x-4 items-center  md:text-lg">
                 <div className="scale-125">
                   <BookmarkOutlinedIcon />
-                </div>{" "}
+                </div> 
+                   <div>
+                  Saved
+                </div>  
               </div>
             ) : (
-              <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className="  font-semibold flex-col gap-y-1    text-zinc-500 flex gap-x-4 items-center  md:text-lg">
                 <div className="scale-125">
                   <BookmarkBorderOutlinedIcon />
-                </div>{" "}
+                </div>    <div>
+                  Saved
+                </div>  
               </div>
             )}
           </Link>
           <Link to="/settings">
             {location.pathname === "/settings" ? (
-              <div className="  font-semibold text-zinc-100 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className="  font-semibold flex-col gap-y-1   text-zinc-100 flex gap-x-4 items-center  md:text-lg">
                 <div className="scale-125">
                   <SettingsIcon />
-                </div>{" "}
+                </div>    
+                <div>
+                  Settings
+                </div>  
               </div>
             ) : (
-              <div className="  font-semibold   text-zinc-500 flex gap-x-4 items-center  text-lg">
+              <div style={{fontSize:"10px"}} className="  font-semibold  flex-col gap-y-1   text-zinc-500 flex gap-x-4 items-center  md:text-lg">
                 <div className="scale-125">
                   <SettingsOutlinedIcon />
-                </div>{" "}
+                </div>  
+                  <div>
+                  Settings
+                </div>  
               </div>
             )}
           </Link>

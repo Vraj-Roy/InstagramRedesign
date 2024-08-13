@@ -13,60 +13,60 @@ const Settings = () => {
         <NavBar />
         <div className="flex w-full md:w-[79vw] bg-black text-zinc-100 justify-between p-5 text-lg font-bold">
           <div className="text-white text-2xl md:text-xl">Settings</div>
-          <div className="flex text-zinc-200 text-sm  gap-x-5"></div>
+          <div className="flex text-zinc-400 text-sm  gap-x-5"></div>
         </div>
 
         <div className="flex md:flex-row flex-col">
-          <div className="flex md:flex-col h-[5%] md:h-full md:w-[5%] md:justify-center md:items-center bg-black gap-3 m-5">
-            <div className="p-5 bg-zinc-900 rounded-2xl text-white cursor-pointer ">
+          <div className="flex md:flex-col h-[5%] md:h-full  md:w-[5%] md:justify-center md:items-center bg-black gap-3 m-auto md:m-5">
+            <div className="p-4 md:p-5 bg-zinc-900 rounded-2xl text-white cursor-pointer ">
               <Person2Icon style={{ scale: "1.5" }} />
             </div>
-            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 cursor-pointer ">
+            <div className="p-4 md:p-5 bg-zinc-900 rounded-2xl text-zinc-400 cursor-pointer ">
               <CircleNotificationsOutlinedIcon style={{ scale: "1.5" }} />
             </div>
-            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 cursor-pointer ">
+            <div className="p-4 md:p-5 bg-zinc-900 rounded-2xl text-zinc-400 cursor-pointer ">
               <InfoOutlinedIcon style={{ scale: "1.5" }} />
             </div>
-            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 cursor-pointer ">
+            <div className="p-4 md:p-5 bg-zinc-900 rounded-2xl text-zinc-400 cursor-pointer ">
               <LockOutlinedIcon style={{ scale: "1.5" }} />
             </div>
-            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 hidden md:block">
+            <div className="p-4 md:p-5 bg-zinc-900 rounded-2xl text-zinc-400 hidden md:block">
               <CampaignOutlinedIcon style={{ scale: "1.5" }} />
             </div>
-            <div className="p-5 bg-zinc-900 rounded-2xl text-zinc-200 cursor-pointer ">
+            <div className="p-4 md:p-5 bg-zinc-900 rounded-2xl text-zinc-400 cursor-pointer ">
               <PrivacyTipOutlinedIcon style={{ scale: "1.5" }} />
             </div>
           </div>
           <div className="md:p-10 p-5 rounded-2xl grid grid-flow-col grid-cols-3 md:w-[95%]  bg-zinc-900 gap-3 m-5">
             <div className="flex flex-col gap-y-2">
-              <div className="font-bold text-sm md:text-2xl mb-1">
+              <div className="font-bold md:text-2xl mb-1 ">
                 Connections
               </div>
-              <div className="text-zinc-200">Restricted Accounts</div>
-              <div className="text-zinc-200">Blocked Accounts</div>
-              <div className="text-zinc-200">Muted Accounts</div>
-              <div className="text-zinc-200">Accounts you follow</div>
+              <div className="text-zinc-400 text-sm">Restricted Accounts</div>
+              <div className="text-zinc-400 text-sm">Blocked Accounts</div>
+              <div className="text-zinc-400 text-sm">Muted Accounts</div>
+              <div className="text-zinc-400 text-sm">Accounts you follow</div>
             </div>
             <div className="flex flex-col gap-y-2 mb-1">
-              <div className="font-bold text-sm md:text-2xl">
+              <div className="font-bold  md:text-2xl">
                 Account Privacy
               </div>
-              <div className="text-zinc-200">Priavte Account</div>
+              <div className="text-zinc-400 text-sm">Priavte Account</div>
             </div>
             <div className="flex flex-col gap-y-2">
-              <div className="font-bold text-sm md:text-2xl mb-1">
+              <div className="font-bold  md:text-2xl mb-1">
                 Interaction
               </div>
-              <div className="text-zinc-200">Limits</div>
-              <div className="text-zinc-200">Hidden Words</div>
-              <div className="text-zinc-200">Comments</div>
-              <div className="text-zinc-200">Posts</div>
-              <div className="text-zinc-200">Mentions</div>
-              <div className="text-zinc-200">Stories</div>
-              <div className="text-zinc-200">Reels and Remix</div>
-              <div className="text-zinc-200">Live</div>
-              <div className="text-zinc-200">Guides</div>
-              <div className="text-zinc-200">Activity Status</div>
+              <div className="text-zinc-400 text-sm">Limits</div>
+              <div className="text-zinc-400 text-sm">Hidden Words</div>
+              <div className="text-zinc-400 text-sm">Comments</div>
+              <div className="text-zinc-400 text-sm">Posts</div>
+              <div className="text-zinc-400 text-sm">Mentions</div>
+              <div className="text-zinc-400 text-sm">Stories</div>
+              <div className="text-zinc-400 text-sm">Reels and Remix</div>
+              <div className="text-zinc-400 text-sm">Live</div>
+              <div className="text-zinc-400 text-sm">Guides</div>
+              <div className="text-zinc-400 text-sm">Activity Status</div>
             </div>
           </div>
         </div>

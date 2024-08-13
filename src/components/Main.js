@@ -22,10 +22,11 @@ const Main = () => {
             <Route path="/reels" element={<Reels />}></Route>
             <Route path="/saved" element={<Saved />}></Route>
             <Route path="/settings" element={<Settings />}></Route>
-          </Routes>
+          </Routes>  
           <Bottom />
         </BrowserRouter>
       </div>
+      <div className="mt-14"></div>
     </>
   );
 };

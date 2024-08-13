@@ -13,7 +13,7 @@ const NavBar = () => {
             <input
               type="text"
               className="py-2 px-4 w-60 rounded-lg bg-zinc-800 color-white "
-              placeholder="search"
+              placeholder="Search"
             ></input>
           </div>
           <div className="flex gap-x-3">

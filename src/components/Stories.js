@@ -14,12 +14,12 @@ const Stories = () => {
       <div className="flex space-x-3 overflow-x-auto px-3 bg-black">
         {/* Story Item */}
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             {/* Story Image or Icon */}
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpfz4nzlwpSkut_9By_fl-SskFrZyfhDZIRA&s"
               alt="Your story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
             {/* Optionally add an icon or a plus button for adding a new story */}
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
@@ -31,12 +31,12 @@ const Stories = () => {
 
         {/* Repeat the Story Item component for other stories */}
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200   bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400 overflow-hidden">
             <img
           
               src="/stp1"
               alt="User story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Kristian Patel</span>
@@ -44,21 +44,21 @@ const Stories = () => {
 
         {/* More story items... */}
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp2"
               alt="Another story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Amelia Townsend</span>
         </div>
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp3"
               alt="User story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs"> Franklin</span>
@@ -66,21 +66,21 @@ const Stories = () => {
 
         {/* More story items... */}
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp4"
               alt="Another story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Koa Vega</span>
         </div>
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp5"
               alt="User story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Claudia</span>
@@ -88,21 +88,21 @@ const Stories = () => {
 
         {/* More story items... */}
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp6"
               alt="Another story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Louie Ramos</span>
         </div>
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp7"
               alt="User story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Emily Smith</span>
@@ -110,21 +110,21 @@ const Stories = () => {
 
         {/* More story items... */}
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp8"
               alt="Another story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Braelynn Medrano</span>
         </div>
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp9"
               alt="User story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Zakai Travis</span>
@@ -132,21 +132,21 @@ const Stories = () => {
 
         {/* More story items... */}
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp10"
               alt="Another story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Kyng Rice</span>
         </div>
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp11"
               alt="User story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Sana</span>
@@ -154,11 +154,11 @@ const Stories = () => {
 
         {/* More story items... */}
         <div className="flex flex-col items-center">
-          <div className="relative w-20 h-20 rounded-full bg-gray-200 border-2 border-gradient-to-r from-purple-400 to-red-400 overflow-hidden">
+          <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
             <img
               src="/stp12"
               alt="Another story"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           <span className="mt-1 text-white text-xs">Selena Guerrero</span>
