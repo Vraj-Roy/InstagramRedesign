@@ -1,7 +1,8 @@
 import { TextField } from "@mui/material";
 import PlayCircleFilledWhiteOutlinedIcon from "@mui/icons-material/PlayCircleFilledWhiteOutlined";
 import IosShareIcon from "@mui/icons-material/IosShare";
-import NotificationsIcon from "@mui/icons-material/Notifications";
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 const NavBar = () => {
   return (
     <>
@@ -12,16 +13,20 @@ const NavBar = () => {
             {/* <PlayCircleFilledWhiteOutlinedIcon/> */}
             <input
               type="text"
-              className="py-2 px-4 w-60 rounded-lg bg-zinc-800 color-white "
+              className="py-2 px-4 w-60 rounded-lg bg-zinc-800 color-white hidden md:block "
               placeholder="Search"
             ></input>
+              <img src="m.instagram-text.png" className="md:hidden h-8   w-auto" alt=";;" />
           </div>
-          <div className="flex gap-x-3">
+          <div className="flex gap-x-3 items-center ">
+            <div className="text-zinc-200 md:hidden block scale-110">
+              <SearchOutlinedIcon />
+            </div>
             <div className="text-zinc-200">
               <IosShareIcon />
             </div>
             <div className="text-zinc-200">
-              <NotificationsIcon />
+              <NotificationsNoneOutlinedIcon />
             </div>
           </div>
         </div>
