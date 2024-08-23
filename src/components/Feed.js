@@ -25,7 +25,7 @@ const Feed = () => {
             <div onClick={latest} className={" hover:cursor-pointer  " + (cc=== "flex" ? "text-white" : "text-zinc-400" )} >Latest</div>
             {cc==="flex" && <div className="-mt-5 text-3xl">.</div>}
           </div>
-          <div className="hover:cursor-pointer  flex flex-col items-center select-none ">
+          <div className="hover:cursor-pointer  flex flex-col items-center select-none   ">
           <div onClick={popular} className={" hover:cursor-pointer  " + (cc2=== "flex" ? "text-white" : "text-zinc-400" )}
           
           >Popular</div>

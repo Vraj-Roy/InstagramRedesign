@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 const Stories = () => {
   return (
     <>
-      <div className="flex text-zinc-100 justify-between py-3  px-5 text-lg font-bold">
+      <div className="flex  text-zinc-100 justify-between py-3  px-5 text-lg font-bold">
         <div className="text-white text-xl ">Stories</div>
         <div className="text-white text-sm ">
           {" "}
@@ -12,7 +12,7 @@ const Stories = () => {
           all
         </div>
       </div>
-      <motion.div className="flex space-x-3 overflow-x-auto   px-3 bg-black"
+      <motion.div className="flex space-x-3 story-main overflow-x-auto   px-3 bg-black"
              initial={{opacity:0 , y:-10}}
              animate={{opacity:1 , y:0}}
              exit={{opacity:0 , y:0}}

@@ -3,6 +3,7 @@ import PlayCircleFilledWhiteOutlinedIcon from "@mui/icons-material/PlayCircleFil
 import IosShareIcon from "@mui/icons-material/IosShare";
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
@@ -16,7 +17,9 @@ const NavBar = () => {
               className="py-2 px-4 w-60 rounded-lg bg-zinc-800 color-white hidden md:block "
               placeholder="Search"
             ></input>
-              <img src="m.instagram-text.png" className="md:hidden h-8   w-auto" alt=";;" />
+            <Link to="/">
+               <img src="m.instagram-text.png" className="md:hidden h-8   w-auto" alt=";;" />
+            </Link>
           </div>
           <div className="flex gap-x-3 items-center ">
             <div className="text-zinc-200 md:hidden block scale-110">
