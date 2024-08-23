@@ -1,12 +1,20 @@
 import NavBar from "../NavBar";
+import {motion} from 'framer-motion'
 
 const Explore = () => {
   return (
     <>
-      <div className="w-full md:w-[80%] bg-black">
+      < div
+       
+      className="w-full md:w-[80%] bg-black">
         <NavBar />
         <div className="flex w-full md:w-[79vw] bg-black text-zinc-100 justify-between p-5 text-lg font-bold">
-          <div className="text-white text-2xl md:text-xl">Explore</div>
+        <motion.div
+          initial={{y:-10}}
+          animate={{y:0}}
+          exit={{y:0}}
+          transition={{duration: 0.5}}
+          className="text-white text-2xl md:text-xl">Explore</motion.div>
           <div className="flex text-zinc-200 text-sm  gap-x-5">
             <div className="hover:cursor-pointer  flex flex-col items-center ">
               <div>Latest</div>
@@ -16,7 +24,12 @@ const Explore = () => {
           </div>
         </div>
 
-        <div className="flex p-2 m-auto w-full md:w-fit">
+        <motion.div
+        initial={{opacity:0 , scale:0.99, y:10}}
+        animate={{opacity:1, scale:1 , y:0}}
+        exit={{opacity:0 , y:0}}
+        transition={{duration: 0.5}}
+        className="flex p-2 m-auto w-full md:w-fit">
           <div className="flex flex-col">
             <div className="rounded-3xl overflow-hidden  md:w-[400px] m-4">
               {" "}
@@ -32,8 +45,8 @@ const Explore = () => {
           <div className="rounded-3xl hidden md:block overflow-hidden w-[700px] fill h-[560px] m-4 ">
             <img className="w-full h-auto" src="/ex3.png" alt="" />{" "}
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </ div>
     </>
   );
 };

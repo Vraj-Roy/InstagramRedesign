@@ -2,6 +2,8 @@ import NavBar from "../NavBar";
 import PlayLessonIcon from "@mui/icons-material/PlayLesson";
 import GridOnIcon from "@mui/icons-material/GridOn";
 import FilterNoneIcon from "@mui/icons-material/FilterNone";    
+import {motion} from 'framer-motion'
+
 import { useState } from "react";
 const Reels=()=>{
     const [f, setF] = useState("Follow")
@@ -17,7 +19,12 @@ const Reels=()=>{
      <div className="w-full md:w-[80%] bg-black">
      <NavBar />
      <div className="flex w-full md:w-[79vw] bg-black text-zinc-100 justify-between p-5 text-sm md:text-lg font-bold">
-          <div className="text-white text-2xl md:text-xl">Reels</div>
+          <motion.div
+          initial={{    y:-10}}
+          animate={{  y:0}}
+          exit={{  y:0}}
+          transition={{duration: 0.5}}
+          className="text-white text-2xl md:text-xl">Reels</motion.div>
           <div className="flex text-zinc-200 text-sm  gap-x-5">
             <div className="hover:cursor-pointer  flex flex-col items-center ">
               <div>
@@ -31,7 +38,12 @@ const Reels=()=>{
           </div>
         </div>
 
-    <div className="md:flex mb-6 md:w-[69vw] mx-4 md:m-auto">
+    <motion.div 
+    initial={{opacity:0 , scale:0.99, y:10}}
+    animate={{opacity:1, scale:1 , y:0}}
+    exit={{opacity:0 , y:0}}
+    transition={{duration: 0.5}}
+    className="md:flex mb-6 md:w-[69vw] mx-4 md:m-auto">
         <div className="rounded-3xl w-full md:w-[40%] overflow-hidden md:mx-10  border-zinc-600"><img src="/Reels.jpg"/> </div>
         <div className="rounded-3xl bg-zinc-900 p-4 mt-8  md:p-10 w-full md:w-[60%]">
             <div className="border-b-2 border-zinc-600 pb-5">
@@ -127,7 +139,7 @@ const Reels=()=>{
                 <div></div>
             </div>
         </div>
-    </div>
+    </motion.div>
     </div>
     </>
 }

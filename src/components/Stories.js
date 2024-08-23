@@ -1,4 +1,5 @@
 import PlayCircleFilledWhiteOutlinedIcon from "@mui/icons-material/PlayCircleFilledWhiteOutlined";
+import {motion} from 'framer-motion'
 
 const Stories = () => {
   return (
@@ -11,7 +12,12 @@ const Stories = () => {
           all
         </div>
       </div>
-      <div className="flex space-x-3 overflow-x-auto px-3 bg-black">
+      <motion.div className="flex space-x-3 overflow-x-auto   px-3 bg-black"
+             initial={{opacity:0 , y:-10}}
+             animate={{opacity:1 , y:0}}
+             exit={{opacity:0 , y:0}}
+             transition={{duration: 0.5}}
+       >
         {/* Story Item */}
         <div className="flex flex-col items-center">
           <div style={{'padding':'3px'}} className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
@@ -165,7 +171,7 @@ const Stories = () => {
         </div>
 
         {/* Add more stories as needed */}
-      </div>
+      </motion.div>
     </>
   );
 };

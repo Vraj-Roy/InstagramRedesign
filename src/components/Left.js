@@ -9,12 +9,11 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 const Left = () => {
-  const location = useLocation();
-  console.log(location.pathname);
+  const location = useLocation(); 
   return (
     <>
-      <div className="overflow-hidden ">
-        <div className="main  h-full fixed top-0 left-0 md:block text-white bg-zinc-900 w-[20vw] px-4 py-4 border-r-2 border-zinc-700 hidden  ">
+      <div className=" hideen ">
+        <div className="main no-scrollbar  overflow-y-scroll overflow-x-hidden h-full fixed top-0 left-0 md:block text-white bg-zinc-900 w-[20vw] px-4 py-4 border-r-2 border-zinc-700 hidden  ">
           <div>
             <img src="instagram-text.png" alt=";;" />
           </div>
@@ -30,7 +29,7 @@ const Left = () => {
           <div className="bg-zinc-700 py-1 text-white px-5 my-1 hover:cursor-pointer rounded w-fit m-auto">
             Edit
           </div>
-          <div className="flex text-sm font-semibold gap-x-4 m-auto mt-2 w-fit">
+          <div className="flex text-md text-wrap font-semibold gap-x-4 m-auto mt-2 w-fit">
             <div className="text-center">98 Posts</div>
             <div className="text-center">35k followers</div>
             <div className="text-center">100 following</div>
@@ -71,7 +70,7 @@ const Left = () => {
               )}
             </Link>
 
-            <Link to="/activity">
+            {/* <Link to="/activity">
               {location.pathname === "/activity" ? (
                 <div className="my-5 font-semibold flex gap-x-4 items-center  text-lg">
                   <div>
@@ -87,7 +86,7 @@ const Left = () => {
                   <div>Activity</div>
                 </div>
               )}
-            </Link>
+            </Link> */}
             <Link to="/reels">
               {location.pathname === "/reels" ? (
                 <div className="my-5 font-semibold flex gap-x-4 items-center  text-lg">

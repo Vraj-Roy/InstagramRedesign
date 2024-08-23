@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import {motion} from 'framer-motion'
 const Feed = () => {
   // let cc="flex"
   const [cc, setCC] = useState("flex")
@@ -27,9 +28,14 @@ const Feed = () => {
         </div>
         </div>
       </div>
-      <div className={`justify-between flex-wrap px-2 w-fit md:gap-2 m-auto ${cc} `}>
-        <div class="bg-black-100 px-4  w-full  md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+      <motion.div className={`  flex-wrap  md:justify-between sm:justify-around px-5 gap-y-5 w-fit md:gap-y-12 m-auto ${cc} `}
+      initial={{opacity:0 , y:10}}
+      animate={{opacity:1 , y:0}}
+      exit={{opacity:0 , y:0}}
+      transition={{duration: 0.5}}
+      >
+        <div class="bg-black-100    w-full  md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" alt="" src="/feed2" />
               <div class="ml-3 ">
@@ -73,8 +79,8 @@ const Feed = () => {
           </div>
         </div>
 
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100    w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed1" />
               <div class="ml-3 ">
@@ -115,8 +121,8 @@ const Feed = () => {
             </div>
           </div>
         </div>{" "}
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100   body w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed2" />
               <div class="ml-3 ">
@@ -157,8 +163,8 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100   body w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed2" />
               <div class="ml-3 ">
@@ -201,8 +207,8 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100   body w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed1" />
               <div class="ml-3 ">
@@ -245,8 +251,8 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100   body w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/feed2" />
               <div class="ml-3 ">
@@ -289,7 +295,7 @@ const Feed = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       
       
       
@@ -299,9 +305,14 @@ const Feed = () => {
       {/* Feed Popular */}
       
       
-      <div className={`justify-between flex-wrap px-2 w-fit md:gap-2 m-auto ${cc2} `}>
-        <div class="bg-black-100 px-4  w-full  md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+      <motion.div className={`justify-between flex-wrap px-2 w-fit md:gap-2 m-auto ${cc2} `}
+       initial={{opacity:0}}
+       animate={{opacity:1}}
+       exit={{opacity:0}}
+       transition={{duration: 1}}
+       >
+        <div class="bg-black-100    w-full  md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" alt="" src="/sa7.png" />
               <div class="ml-3 ">
@@ -345,8 +356,8 @@ const Feed = () => {
           </div>
         </div>
 
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100   body w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/stp6" />
               <div class="ml-3 ">
@@ -387,8 +398,8 @@ const Feed = () => {
             </div>
           </div>
         </div>{" "}
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100   body w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/stp4" />
               <div class="ml-3 ">
@@ -429,8 +440,8 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100   body w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/sa9.png" />
               <div class="ml-3 ">
@@ -473,8 +484,8 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100   body w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/sa1.png" />
               <div class="ml-3 ">
@@ -517,8 +528,8 @@ const Feed = () => {
             </div>
           </div>
         </div>
-        <div class="bg-black-100 px-4 p-6 w-full md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl overflow-hidden  max-w-md">
+        <div class="bg-black-100   body w-full md:w-[380px] ">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" src="/sa2.png" />
               <div class="ml-3 ">
@@ -561,7 +572,7 @@ const Feed = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

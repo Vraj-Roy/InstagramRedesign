@@ -6,17 +6,29 @@ import CampaignOutlinedIcon from "@mui/icons-material/CampaignOutlined";
 import PrivacyTipOutlinedIcon from "@mui/icons-material/PrivacyTipOutlined";
 import CircleNotificationsOutlinedIcon from "@mui/icons-material/CircleNotificationsOutlined";
 import Person2Icon from "@mui/icons-material/Person2";
+import {motion} from 'framer-motion'
+
 const Settings = () => {
   return (
     <>
       <div className="w-full md:w-[80%] bg-black">
         <NavBar />
         <div className="flex w-full md:w-[79vw] bg-black text-zinc-100 justify-between p-5 text-lg font-bold">
-          <div className="text-white text-2xl md:text-xl">Settings</div>
+        <motion.div
+          initial={{y:-10}}
+          animate={{y:0}}
+          exit={{y:0}}
+          transition={{duration: 0.5}}
+          className="text-white text-2xl md:text-xl">Settings</motion.div>
           <div className="flex text-zinc-400 text-sm  gap-x-5"></div>
         </div>
 
-        <div className="flex md:flex-row flex-col">
+        <motion.div
+         initial={{opacity:0 , scale:0.99, y:10}}
+         animate={{opacity:1, scale:1 , y:0}}
+         exit={{opacity:0 , y:0}}
+         transition={{duration: 0.5}}
+          className="flex md:flex-row flex-col">
           <div className="flex md:flex-col h-[5%] md:h-full  md:w-[5%] md:justify-center md:items-center bg-black gap-3 m-auto md:m-5">
             <div className="p-4 md:p-5 bg-zinc-900 rounded-2xl text-white cursor-pointer ">
               <Person2Icon style={{ scale: "1.5" }} />
@@ -69,7 +81,7 @@ const Settings = () => {
               <div className="text-zinc-400 text-sm">Activity Status</div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
