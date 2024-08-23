@@ -21,12 +21,14 @@ const Feed = () => {
       <div className="flex text-zinc-100 justify-between  pt-4 pb-3 px-5 text-xl font-bold">
         <div className="text-white">Feed</div>
         <div className="flex text-zinc-200 text-sm  gap-x-5">
-          <div className={"hover:cursor-pointer  flex flex-col items-center "   }>
-            <div onClick={latest}>Latest</div>
+          <div className={"hover:cursor-pointer  flex flex-col items-center select-none"   }>
+            <div onClick={latest} className={" hover:cursor-pointer  " + (cc=== "flex" ? "text-white" : "text-zinc-400" )} >Latest</div>
             {cc==="flex" && <div className="-mt-5 text-3xl">.</div>}
           </div>
-          <div className="hover:cursor-pointer  flex flex-col items-center ">
-          <div onClick={popular} className="text-zinc-400 hover:cursor-pointer">Popular</div>
+          <div className="hover:cursor-pointer  flex flex-col items-center select-none ">
+          <div onClick={popular} className={" hover:cursor-pointer  " + (cc2=== "flex" ? "text-white" : "text-zinc-400" )}
+          
+          >Popular</div>
             {cc2==="flex" && <div className="-mt-5 text-3xl">.</div>}
         </div>
         </div>
@@ -290,7 +292,7 @@ const Feed = () => {
       {/* Feed Popular */}
       
       
-      <motion.div className={`justify-between flex-wrap px-2 w-fit md:gap-2 m-auto ${cc2} `}
+      <motion.div className={`  flex-wrap  md:justify-between sm:justify-around px-5 gap-y-5 w-fit md:gap-y-12 m-auto ${cc2} `}
        initial={{opacity:0}}
        animate={{opacity:1}}
        exit={{opacity:0}}

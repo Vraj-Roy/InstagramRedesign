@@ -17,7 +17,7 @@ const Left = () => {
           <div>
             <img src="instagram-text.png" alt=";;" />
           </div>
-          <div style={{'padding':'3px'}} className=" w-28 h-28 mb-5 m-auto rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden">
+          <div style={{'padding':'3 px'}} className=" w-28 h-28 mb-5 m-auto rounded-full bg-zinc-300   overflow-hidden">
             <img
               src="/p1.png"
               alt="User story"
