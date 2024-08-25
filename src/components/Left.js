@@ -9,17 +9,20 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 const Left = () => {
-  const location = useLocation(); 
+  const location = useLocation();
   return (
     <>
       <div className=" hideen ">
         <div className="main no-scrollbar  overflow-y-scroll overflow-x-hidden h-full fixed top-0 left-0 md:block text-white bg-zinc-900 w-[20vw] px-4 py-4 border-r-2 border-zinc-700 hidden  ">
-          <div> 
-          <Link to="/">
-            <img src="instagram-text.png" alt=";;" />
+          <div>
+            <Link to="/">
+              <img src="instagram-text.png" alt=";;" />
             </Link>
           </div>
-          <div style={{'padding':'3 px'}} className=" w-28 h-28 mb-5 m-auto rounded-full bg-zinc-300   overflow-hidden">
+          <div
+            style={{ padding: "3 px" }}
+            className=" w-28 h-28 mb-5 m-auto rounded-full bg-zinc-300   overflow-hidden"
+          >
             <img
               src="/p1.png"
               alt="User story"
