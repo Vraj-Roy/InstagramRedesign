@@ -180,7 +180,7 @@ const Feed = () => {
                   rish
                 </span>
                 <span class="text-gray-200 text-xs block">
-                  Ahemdabad, gujarat
+                  Kevadia, Gujarat
                 </span>
               </div>
             </div>
