@@ -92,7 +92,7 @@ const Saved = () => {
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/sa_8.png" alt="" />{" "}
+              <img src="/sa8.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
