@@ -3,20 +3,23 @@ import PlayLessonIcon from "@mui/icons-material/PlayLesson";
 import GridOnIcon from "@mui/icons-material/GridOn";
 import FilterNoneIcon from "@mui/icons-material/FilterNone";
 import AutoAwesomeMotionIcon from "@mui/icons-material/AutoAwesomeMotion";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 
 const Saved = () => {
   return (
-    <> 
+    <>
       <div className="w-full md:w-[80%] bg-black">
         <NavBar />
         <div className="flex w-full md:w-[79vw] bg-black text-zinc-100 justify-between p-5 text-lg font-bold">
           <motion.div
-          initial={{y:-10}}
-          animate={{y:0}}
-          exit={{y:0}}
-          transition={{duration: 0.5}}
-          className="text-white text-2xl md:text-xl">Saved</motion.div>
+            initial={{ y: -10 }}
+            animate={{ y: 0 }}
+            exit={{ y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="text-white text-2xl md:text-xl"
+          >
+            Saved
+          </motion.div>
           <div className="flex text-zinc-200 text-sm  gap-x-5">
             <div className="hover:cursor-pointer  flex flex-col items-center ">
               <div>
@@ -31,10 +34,10 @@ const Saved = () => {
         </div>
 
         <motion.div
-          initial={{opacity:0 , scale:0.99, y:10}}
-          animate={{opacity:1, scale:1 , y:0}}
-          exit={{opacity:0 , y:0}}
-          transition={{duration: 0.5}}
+          initial={{ opacity: 0, scale: 0.99, y: 10 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          exit={{ opacity: 0, y: 0 }}
+          transition={{ duration: 0.5 }}
         >
           <div className="flex flex-wrap justify-center  gap-5 p-6 md:p-3">
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
@@ -89,7 +92,7 @@ const Saved = () => {
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/sa8.png" alt="" />{" "}
+              <img src="/s_a8.png" alt="" />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
