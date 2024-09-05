@@ -92,14 +92,22 @@ const Saved = () => {
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/sa8.png" alt="" />{" "}
+              <img
+                src="/sa8.png"
+                className=" w-full h-full object-cover "
+                alt=""
+              />{" "}
               <div className="absolute right-3 top-3 text-zinc-200">
                 <AutoAwesomeMotionIcon />{" "}
               </div>
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/sa10.png" alt="" />{" "}
+              <img
+                src="/sa10.png"
+                className=" w-full h-full object-cover"
+                alt=""
+              />{" "}
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
@@ -110,7 +118,11 @@ const Saved = () => {
             </div>
             <div className="md:w-[280px] rounded-3xl overflow-hidden relative ">
               {" "}
-              <img src="/sa12.png" alt="" />{" "}
+              <img
+                src="/sa12.png"
+                className=" w-full h-full object-cover"
+                alt=""
+              />{" "}
             </div>
           </div>
           <div className="p-4 "></div>

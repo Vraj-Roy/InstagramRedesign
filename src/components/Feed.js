@@ -59,7 +59,7 @@ const Feed = () => {
         transition={{ duration: 0.5 }}
       >
         <div class="bg-black-100    w-full  md:w-[380px] ">
-          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
+          <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md  ">
             <div class="flex items-center px-4 py-3">
               <img class="h-8 w-8 rounded-full" alt="" src="/feed2" />
               <div class="ml-3 ">
