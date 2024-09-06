@@ -17,20 +17,24 @@ function App() {
 
   useEffect(() => {
     // Function to run on route change
+
+    setProgress(50);
     setProgress(100); // Simulates loading progress on route change
   }, [location]); // Re-run when location changes
 
   return (
     <>
-      {/* // color="#f11946" */}
       <LoadingBar
+        height={3}
         style={{
           backgroundImage:
-            "linear-gradient(to right, #7e22ce, #b91c1c,#facc15)", // Replace with your desired gradient colors
+            "linear-gradient(to right, #7e22ce, #b91c1c, #b91c1c,#facc15)", // Replace with your desired gradient colors
         }}
+        transitionTime={300}
+        // loaderSpeed={1500}
+        waitingTime={200}
         progress={progress}
         onLoaderFinished={() => setProgress(0)}
-        height={3}
       />
 
       <div className="flex">
