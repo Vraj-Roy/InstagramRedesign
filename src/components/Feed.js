@@ -61,7 +61,7 @@ const Feed = () => {
         <div class="bg-black-100    w-full  md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md  ">
             <div class="flex items-center px-4 py-3">
-              <img class="h-8 w-8 rounded-full" alt="" src="/feed2" />
+              <img class="h-8 w-8 rounded-full" alt="" src="/feed2.png" />
               <div class="ml-3 ">
                 <span class="text-sm text-gray-200  font-semibold antialiased block leading-tight">
                   8fact
@@ -100,7 +100,7 @@ const Feed = () => {
         <div class="bg-black-100    w-full md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
-              <img class="h-8 w-8 rounded-full" src="/feed1" />
+              <img class="h-8 w-8 rounded-full" src="/feed1.png" />
               <div class="ml-3 ">
                 <span class="text-sm text-gray-200  font-semibold antialiased block leading-tight">
                   corporates_new
@@ -137,7 +137,7 @@ const Feed = () => {
         <div class="bg-black-100   body w-full md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
-              <img class="h-8 w-8 rounded-full" src="/feed2" />
+              <img class="h-8 w-8 rounded-full" src="/feed2.png" />
               <div class="ml-3 ">
                 <span class="text-sm text-gray-200  font-semibold antialiased block leading-tight">
                   camera_jason
@@ -145,7 +145,7 @@ const Feed = () => {
                 <span class="text-gray-200 text-xs block">Toranto, Canada</span>
               </div>
             </div>
-            <img className="rounded-2xl" src="/feed2" />
+            <img className="rounded-2xl" src="/feed2.png" />
             <div class="flex items-center justify-between mx-4 mt-3 mb-2">
               <div class="flex gap-5 ">
                 <FavoriteIcon sx={{ color: "red" }} />
@@ -174,7 +174,7 @@ const Feed = () => {
         <div class="bg-black-100   body w-full md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
-              <img class="h-8 w-8 rounded-full" src="/feed2" />
+              <img class="h-8 w-8 rounded-full" src="/feed2.png" />
               <div class="ml-3 ">
                 <span class="text-sm text-gray-200  font-semibold antialiased block leading-tight">
                   rish
@@ -213,7 +213,7 @@ const Feed = () => {
         <div class="bg-black-100   body w-full md:w-[380px] ">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
-              <img class="h-8 w-8 rounded-full" src="/feed1" />
+              <img class="h-8 w-8 rounded-full" src="/feed1.png" />
               <div class="ml-3 ">
                 <span class="text-sm text-gray-200  font-semibold antialiased block leading-tight">
                   bihar_boy
@@ -250,7 +250,7 @@ const Feed = () => {
         <div class="bg-black-100   body w-full md:w-[380px] md:mb-0 mb-8">
           <div class="bg-zinc-900 border-zinc-600 px-2 rounded-2xl m-auto md-0 overflow-hidden  max-w-md">
             <div class="flex items-center px-4 py-3">
-              <img class="h-8 w-8 rounded-full" src="/feed2" />
+              <img class="h-8 w-8 rounded-full" src="/feed2.png" />
               <div class="ml-3 ">
                 <span class="text-sm text-gray-200  font-semibold antialiased block leading-tight">
                   student_er
@@ -260,7 +260,7 @@ const Feed = () => {
                 </span>
               </div>
             </div>
-            <img className="rounded-2xl" src="/feed3" />
+            <img className="rounded-2xl" src="/feed3.png" />
             <div class="flex items-center justify-between mx-4 mt-3 mb-2">
               <div class="flex gap-5 ">
                 <FavoriteBorderOutlinedIcon sx={{ color: "red" }} />

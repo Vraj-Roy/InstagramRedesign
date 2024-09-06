@@ -48,7 +48,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200   bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400 overflow-hidden"
           >
             <img
-              src="/stp1"
+              src="/stp1.png"
               alt="User story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -65,7 +65,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp2"
+              src="/stp2.png"
               alt="Another story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -80,7 +80,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp3"
+              src="/stp3.png"
               alt="User story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -95,7 +95,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp4"
+              src="/stp4.png"
               alt="Another story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -108,7 +108,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp5"
+              src="/stp5.png"
               alt="User story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -123,7 +123,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp6"
+              src="/stp6.png"
               alt="Another story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -138,7 +138,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp7"
+              src="/stp7.png"
               alt="User story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -155,7 +155,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp8"
+              src="/stp8.png"
               alt="Another story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -170,7 +170,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp9"
+              src="/stp9.png"
               alt="User story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -187,7 +187,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp10"
+              src="/stp10.png"
               alt="Another story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -200,7 +200,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp11"
+              src="/stp11.png"
               alt="User story"
               className="w-full h-full object-cover rounded-full"
             />
@@ -215,7 +215,7 @@ const Stories = () => {
             className="relative w-20 h-20 rounded-full bg-gray-200  bg-gradient-to-bl from-purple-700 via-red-700 to-yellow-400  overflow-hidden"
           >
             <img
-              src="/stp12"
+              src="/stp12.png"
               alt="Another story"
               className="w-full h-full object-cover rounded-full"
             />
