@@ -17,9 +17,10 @@ function App() {
 
   useEffect(() => {
     // Function to run on route change
-
-    setProgress(50);
-    setProgress(100); // Simulates loading progress on route change
+    setProgress(30);
+    setTimeout(() => {
+      setProgress(100); // Simulates loading progress on route change
+    }, 100);
   }, [location]); // Re-run when location changes
 
   return (
@@ -32,7 +33,7 @@ function App() {
         }}
         transitionTime={300}
         // loaderSpeed={1500}
-        waitingTime={200}
+        waitingTime={400}
         progress={progress}
         onLoaderFinished={() => setProgress(0)}
       />
