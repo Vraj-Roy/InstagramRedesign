@@ -57,7 +57,7 @@ const Reels = () => {
                 <div className="w-8 h-8 md:w-16 md:h-16 rounded-full overflow-hidden">
                   {" "}
                   <img
-                    src="/feed3"
+                    src="/feed3.png"
                     className="w-full h-full object-cover"
                   />{" "}
                 </div>
