@@ -31,6 +31,7 @@ function App() {
           backgroundImage:
             "linear-gradient(to right, #7e22ce, #b91c1c, #b91c1c,#facc15)", // Replace with your desired gradient colors
         }}
+        shadow
         transitionTime={300}
         // loaderSpeed={1500}
         waitingTime={400}
