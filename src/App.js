@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     // Function to run on route change
-    setProgress(30);
+    setProgress(10);
     setTimeout(() => {
       setProgress(100); // Simulates loading progress on route change
     }, 100);
