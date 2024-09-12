@@ -20,7 +20,7 @@ function App() {
     setProgress(30);
     setTimeout(() => {
       setProgress(100); // Simulates loading progress on route change
-    }, 100);
+    }, 50);
   }, [location]); // Re-run when location changes
 
   return (
